@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f4f6f8;
+}
+
+.section_one h2 {
+  font-family: "Inter",bold;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 123%;
+  color: #000;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.section_one p.top {
+  font-family: "Inter",bold;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 117%;
+  color: #000;
+  margin-bottom: 40px;
+}
+.section_one .swiper-wrapper {
+  display: flex;
+  gap: 40px;
+}
+.section_one .swiper-slide {
+  display: flex;
+  gap: 24px;
+}
+.section_one .swiper-slide .card {
+  width: 411px;
+  height: 721px;
+  padding: 20px 24px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+}
+.section_one .swiper-slide .card img {
+  border-radius: 12px;
+  width: 363px;
+  height: 261px;
+  margin-bottom: 24px;
+}
+.section_one .swiper-slide .card h3 {
+  font-family: "Inter",bold;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 150%;
+  color: #000;
+}
+.section_one .swiper-slide .card .stroke {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.section_one .swiper-slide .card .stroke .left {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 125%;
+    font-family: "Inter", serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+.section_one .swiper-slide .card .stroke .right {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Inter", serif;
+  line-height: 120%;
+  text-align: right;
+  color: #000;
+  font-family: "Inter", serif;
+}
+.section_one .swiper-slide .card .strokebtm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.section_one .swiper-slide .card .strokebtm .left {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Inter", serif;
+  line-height: 125%;
+  color: #000;
+}
+.section_one .swiper-slide .card .strokebtm .right {
+  text-align: right;
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+  color: #000;
+}
+.section_one .swiper-slide .card .strokebtm .rightred {
+  color: #FA002C;
+  font-family: "Inter",bold;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+}
+.section_one .swiper-slide .card button.btn {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+  font-family: "Inter",bold;
+  padding: 14px 98px;
+  border: 0px;
+  border-radius: 8px;
+  background: #fa002c;
+  text-decoration: none;
+  margin-top: 24px;
+}

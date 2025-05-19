@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Багманова</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <style>
+
+    .slider-wrapper {
+      position: relative;
+      width: 100%;
+      padding: 0 60px; 
+      box-sizing: border-box;
+    }
+    .swiper {
+      padding-bottom: 60px; 
+    }
+    .swiper-button-prev, .swiper-button-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 10;
+      width: 55px;
+      height: 55px;
+      background: #FA002C;
+      border-radius: 50%;
+      box-shadow: 0 2px 16px 0 rgba(0,0,0,0.08);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .swiper-button-prev { left: 10px; }
+    .swiper-button-next { right: 10px; }
+    .swiper-button-prev::after, .swiper-button-next::after {
+      font-size: 18px;
+      color: #ffffff;
+    }
+    .swiper-pagination {
+      bottom: 10px !important;
+    }
+
+    .swiper-pagination-bullet {
+      width: 100px;
+      height: 4px;   
+  border-radius: 2px;
+  background: #ccc; 
+  margin: 0 6px !important;
+  opacity: 1;       
+  transition: background-color 0.3s;
+}
+
+
+.swiper-pagination-bullet-active {
+  background: #fa002c; 
+}
+  </style>
+</head>
+<body>
+  <section class="section_one container">
+    <h2>Какие авто привозим?</h2>
+    <p class="top">Привозим авто не старше 7 лет на момент растаможки.</p>
+    <div class="slider-wrapper">
+      <!-- Swiper -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/card1.png" alt="">
+              <h3>Toyota RAV4 2022</h3>
+              <div class="stroke">
+                <p class="left">Пробег ..........................................................</p>
+                <p class="right">5 700 км</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Объем двигателя ......................................................</p>
+                <p class="right">2.0</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Мощность ......................................................</p>
+                <p class="right">149 л.с.</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Коробка .......................................................</p>
+                <p class="right">Автомат</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена на вторичном рынке в РФ</p>
+                <p class="right">3 300 000 ₽</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена автомобиля 
+                  “под ключ”</p>
+                <p class="rightred">2 700 000 ₽</p>
+              </div>
+              <button href="" class="btn">Оставить заявку</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/card2.png" alt="">
+              <h3>Audi Q5 2021</h3>
+              <div class="stroke">
+                <p class="left">Пробег ..........................................................</p>
+                <p class="right">5 700 км</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Объем двигателя ......................................................</p>
+                <p class="right">2.0</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Мощность ......................................................</p>
+                <p class="right">149 л.с.</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Коробка .......................................................</p>
+                <p class="right">Автомат</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена на вторичном рынке в РФ</p>
+                <p class="right">3 300 000 ₽</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена автомобиля 
+                  “под ключ”</p>
+                <p class="rightred">2 700 000 ₽</p>
+              </div>
+              <button href="" class="btn">Оставить заявку</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/card3.png" alt="">
+              <h3>Honda CR-V 2021</h3>
+              <div class="stroke">
+                <p class="left">Пробег ..........................................................</p>
+                <p class="right">5 700 км</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Объем двигателя ......................................................</p>
+                <p class="right">2.0</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Мощность ......................................................</p>
+                <p class="right">149 л.с.</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Коробка .......................................................</p>
+                <p class="right">Автомат</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена на вторичном рынке в РФ</p>
+                <p class="right">3 300 000 ₽</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена автомобиля 
+                  “под ключ”</p>
+                <p class="rightred">2 700 000 ₽</p>
+              </div>
+              <button href="" class="btn">Оставить заявку</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/card1.png" alt="">
+              <h3>Toyota RAV4 2022</h3>
+              <div class="stroke">
+                <p class="left">Пробег ..........................................................</p>
+                <p class="right">5 700 км</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Объем двигателя ......................................................</p>
+                <p class="right">2.0</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Мощность ......................................................</p>
+                <p class="right">149 л.с.</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Коробка .......................................................</p>
+                <p class="right">Автомат</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена на вторичном рынке в РФ</p>
+                <p class="right">3 300 000 ₽</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена автомобиля 
+                  “под ключ”</p>
+                <p class="rightred">2 700 000 ₽</p>
+              </div>
+              <button href="" class="btn">Оставить заявку</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/card2.png" alt="">
+              <h3>Audi Q5 2021</h3>
+              <div class="stroke">
+                <p class="left">Пробег ..........................................................</p>
+                <p class="right">5 700 км</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Объем двигателя ......................................................</p>
+                <p class="right">2.0</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Мощность ......................................................</p>
+                <p class="right">149 л.с.</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Коробка .......................................................</p>
+                <p class="right">Автомат</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена на вторичном рынке в РФ</p>
+                <p class="right">3 300 000 ₽</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена автомобиля 
+                  “под ключ”</p>
+                <p class="rightred">2 700 000 ₽</p>
+              </div>
+              <button href="" class="btn">Оставить заявку</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./img/card3.png" alt="">
+              <h3>Honda CR-V 2021</h3>
+              <div class="stroke">
+                <p class="left">Пробег ..........................................................</p>
+                <p class="right">5 700 км</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Объем двигателя ......................................................</p>
+                <p class="right">2.0</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Мощность ......................................................</p>
+                <p class="right">149 л.с.</p>
+              </div>
+              <div class="stroke">
+                <p class="left">Коробка .......................................................</p>
+                <p class="right">Автомат</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена на вторичном рынке в РФ</p>
+                <p class="right">3 300 000 ₽</p>
+              </div>
+              <div class="strokebtm">
+                <p class="left">Цена автомобиля 
+                  “под ключ”</p>
+                <p class="rightred">2 700 000 ₽</p>
+              </div>
+              <button href="" class="btn">Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+        <!-- Стрелки -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <!-- Пагинация -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      slidesPerView: 3,
+      spaceBetween: 24,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      loop: false,
+
+    });
+  </script>
+</body>
+</html>
